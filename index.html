@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポートフォリオ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <h1>マキノソー</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">自己紹介</a></li>
+          <li><a href="#works">これまでの作品</a></li>
+          <li><a href="#contact">問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <img src="img/runnner1.jpg" alt="" class="mainvisual">
+    <div class="container">
+      <section id="about">
+        <h2>自己紹介</h2>
+        <p class="text">代表：荒木 雅己 （アラキ マサミ）<br>住所：〒814-0152 福岡県福岡市城南区堤団地10-109号<br>
+          TEL：092-402-3767<br>
+          mail：makinosoo5932@nifty.com</p>
+        <p>
+          ITに関わる仕事を始めてから、約15年になります。この度、ホームページを作成する仕事をフリーランスとして自分で始めてみようと思い、HTML・CSS・JavaScriptの勉強をしてきました。そして、個人事業「マキノソー」を立ち上げることにしました。皆さんの望まれるホームページを作れるように頑張りたいと思っています。ホームページを新しく作りたい方は、電話にてご相談して頂くか、下記のお問い合わせフォームに「どのようなホームページを作りたいか」を簡単に書いて送信して下さい。（送信ボタンをクリック）
+        </p>
+      </section>
+      <section id="works">
+        <h2>これまでの作品</h2>
+        <p>いずれもドットインストールにて作成したモノです</p>
+        <ul>
+          <li><img src="img/work1.png"></li>
+          <li><img src="img/work2.png"></li>
+          <li><img src="img/work3.png"></li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>「マキノソー」へのお問い合わせ</h2>
+        <form>
+          <div class="wrapper">
+            <label for="name">氏名：</label>
+            <input type="text" id="name">
+          </div>
+          <div class="wrapper">
+            <label for="tel">電話：</label>
+            <input type="text" id="tel">
+          </div>
+          <div class="wrapper">
+            <label for="mail">メール：</label>
+            <input type="text" id="mail">
+          </div>
+          <div class="wrapper">
+            <label for="soudan">相談内容：</label>
+            <textarea id="soudan"></textarea>
+          </div>
+          <button id="btn">送信</button>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer id="footer">
+    <small>&copy; makinosoo</small>
+  </footer>
+</body>
+
+</html>
