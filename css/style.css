@@ -156,6 +156,32 @@ a {
     align-items: center;
   }
 
+  /* #works */
+  #works {
+
+    .contents{
+      display: flex;
+      gap: 2%;
+      align-items: center;
+    }
+
+    ul > li {
+      width: 32%;
+    }
+
+    ul > li + li {
+      margin-top: 0;
+    }
+
+    ul img {
+      width: 100;
+      height: auto;
+      object-fit:cover;
+    }
+
+  }
+
+
   /* #contact */
   #contact {
     .wrapper {
