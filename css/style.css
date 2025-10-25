@@ -32,6 +32,7 @@ a {
   text-decoration: none;
 }
 
+
 /* #header */
 
 #header {
@@ -104,9 +105,13 @@ a {
       width: 75%;
     }
 
+    input:focus {
+      border: none;
+    }
+
     textarea {
       width: 75%;
-      height: 100px;
+      height: 200px;
     }
 
   }
@@ -159,14 +164,15 @@ a {
   /* #works */
   #works {
 
-    .contents{
+    .content {
       display: flex;
-      gap: 2%;
       align-items: center;
+      gap: 2%;
     }
 
     ul > li {
       width: 32%;
+      flex: 1;
     }
 
     ul > li + li {
@@ -174,7 +180,7 @@ a {
     }
 
     ul img {
-      width: 100;
+      width: 100%;
       height: auto;
       object-fit:cover;
     }
@@ -189,9 +195,5 @@ a {
     }
 
   }
-
-
-
-
 
 }
