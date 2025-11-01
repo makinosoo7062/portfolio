@@ -33,15 +33,18 @@
       <section id="works">
         <h2>これまでの作品</h2>
         <p>いずれもドットインストールにて自分で作成したホームページです</p>
-        <ul class="content">
-          <li><img id="img1" src="img/work1.png" alt=""></li>
-          <li><img id="img2" src="img/work2.png" alt=""></li>
-          <li><img id="img3" src="img/work3.png" alt=""></li>
-        </ul>
+        <div class="slider-container">
+          <div class="image-container">
+            <img class="image" src="img/work1.png" alt="">
+            <img class="image" src="img/work2.png" alt="">
+            <img class="image" src="img/work3.png" alt="">
+          </div>
+          <div class="nav-container"></div>
+        </div>
       </section>
       <section id="contact">
         <h2>「マキノソー」へのお問い合わせ</h2>
-        <form action="#" method="post">
+        <form action="#" method="post" name="contactForm" id="contact">
           <div class="wrapper">
             <label for="name">氏名：</label>
             <input type="text" id="name" class="dark">
@@ -68,6 +71,7 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/main2.js"></script>
 </body>
 
 </html>
